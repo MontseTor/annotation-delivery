@@ -74,6 +74,7 @@ NF-hints v${params.version}
 def summary = [:]
 summary['Fasta Ref']    = Genome
 summary['Annotation']	= Annotation
+summary['ID prefix']    = IDtrunk
 summary['Output dir']   = params.outdir
 summary['Working dir']  = workflow.workDir
 summary['Container Engine'] = workflow.containerEngine
