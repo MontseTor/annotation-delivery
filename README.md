@@ -17,5 +17,5 @@ Run like:
 
 ```
 nextflow run main.nf --genome 'Genome.fasta' --annotation 'Annotation.gff3' --IDtrunk 'IDprefix' --outdir 'Species_out' --busco_db 'path/to/db/' --augustus_sp 'species' 
-
+```
 
