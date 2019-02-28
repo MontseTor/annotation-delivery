@@ -21,3 +21,9 @@ nextflow run main.nf --genome 'Genome.fasta' --annotation 'Annotation.gff3' \
   --busco_db 'path/to/db/' --augustus_sp 'species' 
 ```
 
+Test with:
+
+```
+nextflow run main.nf --genome test/scaffold4_cov173.fa --annotation test/Dsargus_annotation_scaffold4_cov173.gff3 \
+  --IDtrunk 'DSARv1' --outdir Dsargus_out \
+  --busco_db $IKMBREF/busco/current/actinopterygii_odb9 --augustus_sp zebrafish
