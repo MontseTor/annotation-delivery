@@ -6,7 +6,7 @@ Prepare delivery directory of finished genome annotation projects
 Start with:
 
 ```
-module load IKMB Java/1.8.0 Nextflow/0.32.0 
+module load IKMB Java/1.8.0 Nextflow/0.32.0 miniconda2 
 
 # Include path to BILS modules to @INC: 
 
