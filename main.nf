@@ -207,7 +207,7 @@ process Busco{
     busco_out = "busco_out_dir/short_summary_busco_out_dir.txt"
     
     """
-    run_BUSCO.py -i $proteins2busco -o busco_out_dir -l $params.busco_db -m prot -sp $params.augustus_sp
+    run_BUSCO.py -i $proteins2busco -c 10 -o busco_out_dir -l $params.busco_db -m prot -sp $params.augustus_sp
     """
 }
 
